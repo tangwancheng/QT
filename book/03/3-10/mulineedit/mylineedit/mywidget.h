@@ -16,9 +16,7 @@ public:
     ~MyWidget();
 
 private slots:
-    void on_pushBtn1_toggled(bool checked);
-
-    void on_checkBox_clicked();
+    void on_lineEdit3_returnPressed();
 
 private:
     Ui::MyWidget *ui;
