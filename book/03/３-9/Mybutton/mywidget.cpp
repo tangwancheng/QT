@@ -16,5 +16,5 @@ MyWidget::~MyWidget()
 
 void MyWidget::on_pushBtn1_toggled(bool checked)
 {
-    qDebug()<<tr("按钮是否按下:")<<checked;
+    qDebug()<<tr("按钮是否按下:")<<checked
 }
